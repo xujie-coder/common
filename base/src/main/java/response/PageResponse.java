@@ -13,7 +13,7 @@ import java.util.List;
  */
 @Getter
 @Setter
-public class PageResponse<T> extends MultiResponse{
+public class PageResponse<T> extends MultiResponse<T>{
     private static final long serialVersionUID = 1L;
 
     /**
