@@ -3,7 +3,6 @@ package response;
 import lombok.Getter;
 import lombok.Setter;
 
-
 /**
  * @author xujie
  * @since 2025/01/06 21:15

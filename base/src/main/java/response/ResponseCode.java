@@ -1,6 +1,8 @@
 package response;
 
 /**
+ * 响应码
+ *
  * @author xujie
  * @since 2025/01/06 21:10
  */
@@ -29,5 +31,4 @@ public enum ResponseCode {
      * 业务错误
      */
     BIZ_ERROR;
-
 }

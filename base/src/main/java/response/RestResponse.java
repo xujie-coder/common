@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * restful api请求
+ * restful api请求格式的响应
  *
  * @author xujie
  * @since 2025/01/06 21:23

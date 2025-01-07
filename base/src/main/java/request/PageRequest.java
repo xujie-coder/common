@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * 分页请求
+ * 分页请求入参
  *
  * @author xujie
  * @since 2025/01/06 19:59
@@ -23,5 +23,4 @@ public class PageRequest extends BaseRequest{
      * 每页结果数
      */
     private int pageSize;
-
 }

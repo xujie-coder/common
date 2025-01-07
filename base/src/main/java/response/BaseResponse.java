@@ -6,7 +6,6 @@ import lombok.ToString;
 
 import java.io.Serializable;
 
-
 /**
  * 通用出参
  *
