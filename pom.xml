@@ -5,6 +5,9 @@
     <groupId>com.xjtu</groupId>
     <artifactId>common</artifactId>
     <name>A COMMON PROJECT</name>
+    <modules>
+        <module>rpc</module>
+    </modules>
     <version>1.0-SNAPSHOT</version>
     <description>通用设计</description>
     <packaging>pom</packaging>
