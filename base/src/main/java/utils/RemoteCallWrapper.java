@@ -84,7 +84,7 @@ public class RemoteCallWrapper {
             throw new IllegalArgumentException("Catch Exception on Remote Call：" + e.getMessage(),e);
         } catch (Throwable e){
             log.error("request Exception {}",JSON.toJSONString(request));
-            log.error("Catch Exception on Remote Call：" + e.getMessage(),e);
+            log.error("Catch Exception on Remote Call：{}", e.getMessage(),e);
             throw e;
         } finally {
             if (log.isInfoEnabled()) {
