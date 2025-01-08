@@ -1,6 +1,8 @@
 package exception;
 
 /**
+ * 远程调用异常
+ *
  * @author xujie
  * @since 2025/01/07 16:09
  */
