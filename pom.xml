@@ -7,6 +7,7 @@
     <name>A COMMON PROJECT</name>
     <modules>
         <module>rpc</module>
+        <module>web</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
     <description>通用设计</description>
@@ -24,6 +25,26 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.2</version>
     </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.xjtu</groupId>
+                <artifactId>base</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.xjtu</groupId>
+                <artifactId>rpc</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.xjtu</groupId>
+                <artifactId>web</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
