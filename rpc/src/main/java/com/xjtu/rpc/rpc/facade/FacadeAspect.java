@@ -1,4 +1,4 @@
-package com.xjtu.rpc.rpc;
+package com.xjtu.rpc.rpc.facade;
 
 import com.alibaba.fastjson2.JSON;
 import com.xjtu.base.exception.BizException;
@@ -31,7 +31,7 @@ import java.util.Arrays;
 @Slf4j
 public class FacadeAspect {
 
-    @Around("@annotation(com.xjtu.rpc.rpc.Facade)")
+    @Around("@annotation(com.xjtu.rpc.rpc.facade.Facade)")
     public Object facade(ProceedingJoinPoint pjp) throws Exception {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();

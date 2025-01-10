@@ -1,4 +1,4 @@
-package com.xjtu.rpc.rpc;
+package com.xjtu.rpc.rpc.facade;
 
 /**
  * 自定义注解：统一RPC包装
