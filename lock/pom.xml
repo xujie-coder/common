@@ -7,10 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>job</artifactId>
-    <description>定时任务组件</description>
+    <artifactId>lock</artifactId>
+    <description>分布式锁</description>
     <version>1.0-SNAPSHOT</version>
-    <name>job</name>
+    <name>lock</name>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -19,11 +19,5 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.xuxueli</groupId>
-            <artifactId>xxl-job-core</artifactId>
-            <version>2.4.0</version>
-        </dependency>
     </dependencies>
-
 </project>
