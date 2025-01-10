@@ -19,5 +19,9 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.xjtu</groupId>
+            <artifactId>cache</artifactId>
+        </dependency>
     </dependencies>
 </project>
